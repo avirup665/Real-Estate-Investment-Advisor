@@ -1,0 +1,28 @@
+{
+  "raw": {
+    "rows": 250000,
+    "columns": 23,
+    "missing_cells": 0,
+    "duplicate_rows": 0,
+    "duplicate_ids": 0,
+    "floor_above_total_count": 116304,
+    "nonpositive_price_per_sqft_source_count": 2534
+  },
+  "processed": {
+    "rows": 250000,
+    "columns": 39,
+    "missing_cells": 0,
+    "duplicate_ids": 0,
+    "floor_above_total_count": 0,
+    "good_investment_rate": 0.452184
+  },
+  "actions": [
+    "Validated required columns",
+    "Removed duplicate IDs",
+    "Standardized categorical text",
+    "Coerced and imputed numeric values defensively",
+    "Corrected total floors when floor number was higher",
+    "Recomputed price per square foot in INR",
+    "Engineered amenities, infrastructure, targets, ROI, and investment score"
+  ]
+}
